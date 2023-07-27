@@ -1,0 +1,5 @@
+fp = open("test.txt", "w")
+fp.write("File created with Python")
+fp.close()
+print(type(fp))
+print(fp)
